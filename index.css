@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(45deg, white, grey);
+    font-family: sans-serif;
+}
+
+#ubuntu_table, #youtube_table, th, td{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+#ubuntu_table{
+    width: 50%;
+}
+
+#youtube_table{
+    margin-top: 60px;
+}
+
+tr:nth-child(even){
+    background-image: linear-gradient(45deg, blue, white);
+}
